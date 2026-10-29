@@ -1,0 +1,2649 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="2026 年 10 月 30 日至 11 月 1 日广州、珠海长隆三天行程，包含交通时间、地图和行前清单。">
+  <meta name="theme-color" content="#ffd6c9">
+  <link rel="canonical" href="https://ranz-feng.github.io/gz-zhuhai-weekend-guide/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="向海过周末 · 广州珠海三天攻略">
+  <meta property="og:description" content="2026 年 10 月 30 日至 11 月 1 日广州、珠海长隆三天行程，包含交通时间、地图和行前清单。">
+  <meta property="og:url" content="https://ranz-feng.github.io/gz-zhuhai-weekend-guide/">
+  <meta property="og:image" content="https://ranz-feng.github.io/gz-zhuhai-weekend-guide/assets/hero-whaleshark.jpg">
+  <meta property="og:image:alt" content="珠海长隆海洋王国鲸鲨馆">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="向海过周末 · 广州珠海三天攻略">
+  <meta name="twitter:description" content="2026 年 10 月 30 日至 11 月 1 日广州、珠海长隆三天行程，包含交通时间、地图和行前清单。">
+  <meta name="twitter:image" content="https://ranz-feng.github.io/gz-zhuhai-weekend-guide/assets/hero-whaleshark.jpg">
+  <title>向海过周末 · 广州珠海三天攻略</title>
+  <style>
+    :root {
+      --ink: #15394b;
+      --ink-soft: #456474;
+      --coral: #ff7768;
+      --coral-pale: #ffd7ce;
+      --coral-soft: #fff0eb;
+      --sky: #9ce7f7;
+      --sky-pale: #d8f6ff;
+      --mint: #74e6c1;
+      --mint-pale: #cffff0;
+      --lemon: #ffe36b;
+      --lemon-pale: #fff4b5;
+      --paper: #fffdf8;
+      --paper-blue: #f4fdff;
+      --white: #ffffff;
+      --blue: #117491;
+      --muted: #617986;
+      --line: rgba(21, 57, 75, 0.16);
+      --shadow-hard: 4px 5px 0 var(--ink);
+      --shadow-soft: 0 18px 54px rgba(21, 57, 75, 0.15);
+      --font-display: "Arial Rounded MT Bold", "Avenir Next", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      --font-body: "Avenir Next", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 88px;
+    }
+
+    body {
+      min-width: 320px;
+      min-height: 100vh;
+      margin: 0;
+      overflow-x: clip;
+      color: var(--ink);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.68;
+      background-color: #effcff;
+      background-image:
+        radial-gradient(circle at 7% 5%, rgba(255, 255, 255, 0.9) 0 5%, transparent 25%),
+        linear-gradient(160deg, #ffd6c9 0%, #bff3ff 19%, #c9ffe8 43%, #e8fbff 70%, #fff8f2 100%);
+      background-attachment: fixed;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    body::before {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      content: "";
+      opacity: 0.28;
+      background-image: radial-gradient(rgba(21, 57, 75, 0.22) 0.7px, transparent 0.7px);
+      background-size: 18px 18px;
+      pointer-events: none;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    button {
+      color: inherit;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--coral);
+      outline-offset: 4px;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: 12px;
+      left: 12px;
+      z-index: 200;
+      padding: 10px 16px;
+      color: var(--ink);
+      font-weight: 800;
+      text-decoration: none;
+      background: var(--lemon);
+      border: 2px solid var(--ink);
+      border-radius: 999px;
+      transform: translateY(-160%);
+      transition: transform 180ms ease;
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .reading-progress {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 120;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.36);
+      pointer-events: none;
+    }
+
+    .reading-progress span {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: var(--coral);
+      transform: scaleX(0);
+      transform-origin: left center;
+    }
+
+    .page-shell {
+      position: relative;
+      z-index: 1;
+      width: min(calc(100% - 36px), 760px);
+      margin: 30px auto 54px;
+      background: rgba(255, 253, 248, 0.94);
+      border: 3px solid var(--ink);
+      border-radius: 28px;
+      box-shadow:
+        8px 10px 0 rgba(21, 57, 75, 0.2),
+        0 32px 90px rgba(17, 116, 145, 0.22);
+    }
+
+    .hero {
+      position: relative;
+      display: flex;
+      min-height: min(700px, 88vh);
+      align-items: flex-end;
+      overflow: hidden;
+      isolation: isolate;
+      border-radius: 25px 25px 0 0;
+      background: var(--sky-pale);
+    }
+
+    .hero__image {
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 52% center;
+      filter: saturate(1.08) brightness(1.05);
+      transform: scale(1.025);
+      animation: hero-drift 18s ease-in-out infinite alternate;
+    }
+
+    .hero::before {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      content: "";
+      background:
+        linear-gradient(180deg, rgba(255, 230, 220, 0.18) 0%, rgba(21, 57, 75, 0.02) 34%, rgba(21, 57, 75, 0.78) 100%),
+        linear-gradient(90deg, rgba(21, 57, 75, 0.2), transparent 68%);
+    }
+
+    .hero::after {
+      position: absolute;
+      right: -14%;
+      bottom: -40px;
+      left: -14%;
+      z-index: 1;
+      height: 92px;
+      content: "";
+      background: var(--paper);
+      border-top: 3px solid var(--ink);
+      border-radius: 50% 50% 0 0 / 32% 32% 0 0;
+    }
+
+    .hero__top {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      left: 20px;
+      z-index: 3;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .sticker,
+    .stamp {
+      width: fit-content;
+      color: var(--ink);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.02em;
+      line-height: 1.3;
+      border: 2px solid var(--ink);
+      box-shadow: 3px 3px 0 var(--ink);
+    }
+
+    .sticker {
+      padding: 8px 12px;
+      background: var(--paper);
+      border-radius: 999px;
+    }
+
+    .stamp {
+      max-width: 94px;
+      padding: 10px 9px;
+      text-align: center;
+      background: var(--lemon);
+      border-radius: 12px;
+      transform: rotate(4deg);
+    }
+
+    .hero__content {
+      position: relative;
+      z-index: 3;
+      width: 100%;
+      padding: 120px 24px 68px;
+    }
+
+    .hero__kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+      padding: 7px 13px;
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 900;
+      background: var(--mint);
+      border: 2px solid var(--ink);
+      border-radius: 999px;
+      box-shadow: 3px 3px 0 var(--ink);
+      transform: rotate(-1.2deg);
+    }
+
+    .hero__kicker::before {
+      width: 8px;
+      height: 8px;
+      content: "";
+      background: var(--coral);
+      border: 1.5px solid var(--ink);
+      border-radius: 50%;
+    }
+
+    .hero h1 {
+      max-width: 600px;
+      margin: 0;
+      color: var(--white);
+      font-family: var(--font-display);
+      font-size: clamp(3rem, 11vw, 5.3rem);
+      font-weight: 900;
+      letter-spacing: 0;
+      line-height: 0.98;
+      text-shadow: 0 3px 0 rgba(21, 57, 75, 0.3), 0 14px 28px rgba(5, 33, 45, 0.28);
+    }
+
+    .hero h1 span {
+      display: block;
+      color: var(--lemon);
+    }
+
+    .hero__subtitle {
+      max-width: 520px;
+      margin: 18px 0 0;
+      color: rgba(255, 255, 255, 0.94);
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.6;
+      text-shadow: 0 2px 9px rgba(5, 33, 45, 0.38);
+    }
+
+    .hero__chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 22px;
+    }
+
+    .hero__chips span {
+      padding: 7px 12px;
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 900;
+      background: var(--coral-pale);
+      border: 2px solid var(--ink);
+      border-radius: 999px;
+      box-shadow: 2px 3px 0 rgba(21, 57, 75, 0.72);
+    }
+
+    .hero__chips span:nth-child(2) {
+      background: var(--mint);
+    }
+
+    .hero__chips span:nth-child(3) {
+      background: var(--sky-pale);
+    }
+
+    .day-nav {
+      position: sticky;
+      top: 0;
+      z-index: 80;
+      padding: 12px 14px 13px;
+      background: rgba(255, 253, 248, 0.92);
+      border-bottom: 2px solid var(--ink);
+      box-shadow: 0 8px 18px rgba(21, 57, 75, 0.08);
+      -webkit-backdrop-filter: blur(16px);
+      backdrop-filter: blur(16px);
+    }
+
+    .day-nav__inner {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .day-nav__inner::-webkit-scrollbar {
+      display: none;
+    }
+
+    .day-nav a {
+      flex: 0 0 auto;
+      padding: 8px 13px;
+      color: var(--ink);
+      font-size: 13px;
+      font-weight: 900;
+      line-height: 1.2;
+      text-decoration: none;
+      white-space: nowrap;
+      background: var(--white);
+      border: 2px solid var(--ink);
+      border-radius: 999px;
+      transition: background-color 160ms ease, transform 160ms ease;
+    }
+
+    .day-nav a:hover {
+      background: var(--sky-pale);
+      transform: translateY(-1px);
+    }
+
+    .day-nav a[aria-current="true"] {
+      background: var(--coral);
+      box-shadow: inset 0 -3px 0 rgba(21, 57, 75, 0.16);
+    }
+
+    .day-nav a[href="#saturday"] {
+      margin-right: auto;
+    }
+
+    main {
+      display: block;
+    }
+
+    .section {
+      position: relative;
+      padding: 56px 30px 60px;
+      border-bottom: 2px solid var(--ink);
+      scroll-margin-top: 84px;
+    }
+
+    .section:last-of-type {
+      border-bottom: 0;
+    }
+
+    .section--tint {
+      background:
+        linear-gradient(180deg, rgba(216, 246, 255, 0.7), rgba(255, 255, 255, 0.14) 75%),
+        var(--paper-blue);
+    }
+
+    .section--mint {
+      background:
+        linear-gradient(180deg, rgba(207, 255, 240, 0.72), rgba(255, 255, 255, 0.16) 72%),
+        var(--paper);
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 12px;
+      color: var(--blue);
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+
+    .section-label::before {
+      width: 28px;
+      height: 4px;
+      content: "";
+      background: var(--coral);
+      border: 1.5px solid var(--ink);
+      border-radius: 999px;
+    }
+
+    .section h2 {
+      max-width: 600px;
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 6vw, 3rem);
+      font-weight: 900;
+      letter-spacing: 0;
+      line-height: 1.12;
+      white-space: nowrap;
+    }
+
+    .section-summary {
+      max-width: 600px;
+      margin: 14px 0 0;
+      color: var(--ink-soft);
+      font-size: 15px;
+      line-height: 1.75;
+    }
+
+    .section-summary strong {
+      color: var(--ink);
+      font-weight: 900;
+      background: linear-gradient(transparent 58%, var(--lemon) 58%);
+    }
+
+    .day-heading {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 22px;
+    }
+
+    .day-date {
+      flex: 0 0 auto;
+      min-width: 96px;
+      padding: 13px 12px 11px;
+      color: var(--ink);
+      text-align: center;
+      background: var(--lemon);
+      border: 2.5px solid var(--ink);
+      border-radius: 16px;
+      box-shadow: var(--shadow-hard);
+      transform: rotate(2deg);
+    }
+
+    .day-date b,
+    .day-date span {
+      display: block;
+    }
+
+    .day-date b {
+      font-family: var(--font-display);
+      font-size: 24px;
+      line-height: 1.05;
+    }
+
+    .day-date span {
+      margin-top: 4px;
+      font-size: 11px;
+      font-weight: 900;
+      line-height: 1.2;
+    }
+
+    .overview-grid {
+      display: grid;
+      gap: 18px;
+      margin-top: 30px;
+    }
+
+    .day-card {
+      --card-top: #fffaf8;
+      --card-bottom: #ffd7ce;
+      --card-tab: #ffd7ce;
+      --card-dot: rgba(255, 119, 104, 0.12);
+      position: relative;
+      isolation: isolate;
+      margin-top: 14px;
+      padding: 24px 20px 20px;
+      background: transparent;
+      border: 0;
+      border-radius: 18px;
+      box-shadow: none;
+    }
+
+    .day-card::before {
+      position: absolute;
+      top: 0;
+      left: 20px;
+      z-index: -2;
+      width: 54%;
+      height: 32px;
+      content: "";
+      background: var(--card-tab);
+      border: 2.5px solid var(--ink);
+      border-radius: 13px 13px 0 0;
+    }
+
+    .day-card::after {
+      position: absolute;
+      inset: 14px 0 0;
+      z-index: -1;
+      content: "";
+      background:
+        radial-gradient(circle, var(--card-dot) 0 2.2px, transparent 2.7px) 0 0 / 25px 25px,
+        linear-gradient(180deg, var(--card-top) 0%, var(--card-bottom) 100%);
+      border: 2.5px solid var(--ink);
+      border-radius: 18px;
+      box-shadow: var(--shadow-hard);
+    }
+
+    .day-card > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .day-card:nth-child(1) {
+      --card-top: #fffaf8;
+      --card-bottom: #ffd7ce;
+      --card-tab: #ffd7ce;
+      --card-dot: rgba(255, 119, 104, 0.12);
+    }
+
+    .day-card:nth-child(2) {
+      --card-top: #fbffff;
+      --card-bottom: #d8f6ff;
+      --card-tab: #d8f6ff;
+      --card-dot: rgba(17, 116, 145, 0.11);
+    }
+
+    .day-card:nth-child(3) {
+      --card-top: #fbfffd;
+      --card-bottom: #cffff0;
+      --card-tab: #cffff0;
+      --card-dot: rgba(0, 126, 104, 0.1);
+    }
+
+    .day-card__top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .day-card__top span {
+      color: var(--blue);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.04em;
+    }
+
+    .day-card__top b {
+      padding: 4px 9px;
+      color: var(--ink);
+      font-size: 11px;
+      font-weight: 900;
+      background: var(--white);
+      border: 1.5px solid var(--ink);
+      border-radius: 999px;
+    }
+
+    .day-card h3 {
+      margin: 9px 0 0;
+      font-family: var(--font-display);
+      font-size: clamp(1rem, 2.8vw, 1.25rem);
+      line-height: 1.25;
+      white-space: nowrap;
+    }
+
+    .day-card__route {
+      margin: 10px 0 16px;
+      color: var(--ink-soft);
+      font-size: 13px;
+      font-weight: 800;
+      line-height: 1.55;
+    }
+
+    .mini-times {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .mini-times li {
+      display: grid;
+      grid-template-columns: 48px 1fr;
+      gap: 9px;
+      align-items: start;
+      padding-top: 8px;
+      border-top: 1.5px dashed rgba(21, 57, 75, 0.22);
+    }
+
+    .mini-times time {
+      color: var(--blue);
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 900;
+      line-height: 1.5;
+    }
+
+    .mini-times span {
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+
+    .note-strip {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-top: 24px;
+      padding: 16px 17px;
+      background: var(--white);
+      border: 2px solid var(--ink);
+      border-radius: 16px;
+      box-shadow: 3px 4px 0 rgba(21, 57, 75, 0.22);
+    }
+
+    .note-strip__icon {
+      display: grid;
+      flex: 0 0 auto;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      color: var(--ink);
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 900;
+      background: var(--lemon);
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+    }
+
+    .note-strip p {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.65;
+    }
+
+    .route-strip {
+      display: grid;
+      gap: 8px;
+      margin-top: 28px;
+      padding: 15px;
+      background: var(--ink);
+      border: 2.5px solid var(--ink);
+      border-radius: 18px;
+      box-shadow: 4px 5px 0 rgba(255, 119, 104, 0.9);
+    }
+
+    .route-strip__row {
+      display: grid;
+      grid-template-columns: 36px 1fr auto;
+      gap: 10px;
+      align-items: center;
+      min-height: 40px;
+      color: var(--white);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .route-strip__row + .route-strip__row {
+      padding-top: 8px;
+      border-top: 1px solid rgba(255, 255, 255, 0.16);
+    }
+
+    .route-strip__row b {
+      color: var(--lemon);
+      font-family: var(--font-display);
+      font-size: 12px;
+    }
+
+    .route-strip__row time {
+      color: var(--mint);
+      font-family: var(--font-display);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .priority {
+      margin-top: 27px;
+      padding: 20px;
+      background: var(--white);
+      border: 2.5px solid var(--ink);
+      border-radius: 18px;
+      box-shadow: var(--shadow-hard);
+    }
+
+    .priority__head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .priority__head h3 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: 21px;
+      line-height: 1.25;
+    }
+
+    .priority__head span {
+      padding: 4px 9px;
+      color: var(--white);
+      font-size: 10px;
+      font-weight: 900;
+      background: var(--coral);
+      border: 1.5px solid var(--ink);
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    .node-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .node {
+      padding: 13px 12px;
+      background: var(--paper-blue);
+      border: 1.5px solid var(--ink);
+      border-radius: 12px;
+    }
+
+    .node b,
+    .node span {
+      display: block;
+    }
+
+    .node b {
+      color: var(--coral);
+      font-family: var(--font-display);
+      font-size: 20px;
+      line-height: 1.1;
+    }
+
+    .node span {
+      margin-top: 5px;
+      font-size: 11px;
+      font-weight: 900;
+      line-height: 1.4;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 22px;
+    }
+
+    .section-heading__text {
+      min-width: 0;
+    }
+
+    .section-heading__badge {
+      flex: 0 0 auto;
+      padding: 10px 12px;
+      color: var(--ink);
+      font-size: 11px;
+      font-weight: 900;
+      text-align: center;
+      background: var(--mint);
+      border: 2px solid var(--ink);
+      border-radius: 13px;
+      box-shadow: 3px 3px 0 var(--ink);
+      transform: rotate(2deg);
+    }
+
+    .timeline {
+      display: grid;
+      gap: 0;
+      margin-top: 28px;
+    }
+
+    .timeline__item {
+      position: relative;
+      display: grid;
+      grid-template-columns: 55px 1fr;
+      gap: 13px;
+      padding-bottom: 18px;
+    }
+
+    .timeline__item:last-child {
+      padding-bottom: 0;
+    }
+
+    .timeline__item::before {
+      position: absolute;
+      top: 28px;
+      bottom: -2px;
+      left: 27px;
+      width: 2px;
+      content: "";
+      background: var(--ink);
+    }
+
+    .timeline__item:last-child::before {
+      display: none;
+    }
+
+    .timeline__time {
+      position: relative;
+      z-index: 1;
+      align-self: start;
+      padding: 7px 5px;
+      color: var(--ink);
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 900;
+      line-height: 1.2;
+      text-align: center;
+      background: var(--lemon);
+      border: 2px solid var(--ink);
+      border-radius: 999px;
+    }
+
+    .timeline__item--move .timeline__time {
+      background: var(--sky);
+    }
+
+    .timeline__item--food .timeline__time {
+      background: var(--coral-pale);
+    }
+
+    .timeline__item--rest .timeline__time {
+      background: var(--mint);
+    }
+
+    .timeline-card {
+      padding: 17px 17px 16px;
+      background: var(--white);
+      border: 2px solid var(--ink);
+      border-radius: 16px;
+      box-shadow: 3px 4px 0 rgba(21, 57, 75, 0.2);
+    }
+
+    .timeline-card h3 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: 18px;
+      line-height: 1.3;
+    }
+
+    .timeline-card p {
+      margin: 6px 0 0;
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    .timeline-card__tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .timeline-card__tags span {
+      padding: 3px 7px;
+      color: var(--ink);
+      font-size: 10px;
+      font-weight: 900;
+      line-height: 1.4;
+      background: var(--sky-pale);
+      border: 1px solid var(--ink);
+      border-radius: 999px;
+    }
+
+    .map-feature {
+      display: grid;
+      gap: 0;
+      margin-top: 28px;
+      overflow: hidden;
+      background: var(--white);
+      border: 2.5px solid var(--ink);
+      border-radius: 20px;
+      box-shadow: var(--shadow-hard);
+    }
+
+    .map-feature__copy {
+      padding: 22px 20px;
+    }
+
+    .map-feature__eyebrow {
+      margin: 0;
+      color: var(--blue);
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+    }
+
+    .map-feature h3 {
+      margin: 7px 0 0;
+      font-family: var(--font-display);
+      font-size: 24px;
+      line-height: 1.22;
+    }
+
+    .map-feature__copy > p {
+      margin: 10px 0 0;
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .time-compare {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 8px;
+      align-items: center;
+      margin-top: 16px;
+      padding: 12px;
+      background: var(--coral-soft);
+      border: 1.5px solid var(--ink);
+      border-radius: 12px;
+    }
+
+    .time-compare div {
+      min-width: 0;
+    }
+
+    .time-compare b,
+    .time-compare span {
+      display: block;
+    }
+
+    .time-compare b {
+      font-family: var(--font-display);
+      font-size: 18px;
+      line-height: 1.1;
+    }
+
+    .time-compare span {
+      margin-top: 3px;
+      color: var(--ink-soft);
+      font-size: 10px;
+      font-weight: 800;
+      line-height: 1.4;
+    }
+
+    .time-compare > span {
+      margin: 0;
+      color: var(--coral);
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    .map-feature__media {
+      position: relative;
+      aspect-ratio: 1125 / 980;
+      background: var(--sky-pale);
+      border-top: 2.5px solid var(--ink);
+    }
+
+    .map-feature__media img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+
+    .map-feature__media::after {
+      position: absolute;
+      inset: auto 0 0;
+      height: 35%;
+      content: "";
+      background: linear-gradient(transparent, rgba(21, 57, 75, 0.42));
+      pointer-events: none;
+    }
+
+    .map-open {
+      position: absolute;
+      right: 14px;
+      bottom: 14px;
+      z-index: 2;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 11px;
+      color: var(--ink);
+      font-size: 11px;
+      font-weight: 900;
+      background: var(--white);
+      border: 2px solid var(--ink);
+      border-radius: 999px;
+      box-shadow: 2px 3px 0 var(--ink);
+      cursor: pointer;
+    }
+
+    .map-open:hover {
+      background: var(--lemon);
+    }
+
+    .map-caption {
+      grid-column: 1 / -1;
+      margin: 0;
+      padding: 11px 15px 12px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.6;
+      background: var(--paper);
+      border-top: 1.5px solid var(--ink);
+    }
+
+    .transfer-track {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 27px;
+    }
+
+    .transfer-stop {
+      position: relative;
+      min-height: 112px;
+      padding: 14px 12px;
+      background: var(--white);
+      border: 2px solid var(--ink);
+      border-radius: 14px;
+      box-shadow: 3px 4px 0 rgba(21, 57, 75, 0.2);
+    }
+
+    .transfer-stop__number {
+      position: absolute;
+      top: 9px;
+      right: 9px;
+      display: grid;
+      width: 24px;
+      height: 24px;
+      place-items: center;
+      color: var(--ink);
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 900;
+      background: var(--mint);
+      border: 1.5px solid var(--ink);
+      border-radius: 50%;
+    }
+
+    .transfer-stop time,
+    .transfer-stop b,
+    .transfer-stop small {
+      display: block;
+    }
+
+    .transfer-stop time {
+      color: var(--coral);
+      font-family: var(--font-display);
+      font-size: 21px;
+      font-weight: 900;
+      line-height: 1.1;
+    }
+
+    .transfer-stop b {
+      margin-top: 8px;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .transfer-stop small {
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .critical-callout {
+      position: relative;
+      margin-top: 18px;
+      padding: 17px 18px 17px 48px;
+      background: var(--lemon-pale);
+      border: 2px solid var(--ink);
+      border-radius: 15px;
+      box-shadow: 3px 4px 0 var(--ink);
+    }
+
+    .critical-callout::before {
+      position: absolute;
+      top: 16px;
+      left: 15px;
+      display: grid;
+      width: 24px;
+      height: 24px;
+      content: "!";
+      place-items: center;
+      color: var(--white);
+      font-family: var(--font-display);
+      font-size: 15px;
+      font-weight: 900;
+      background: var(--coral);
+      border: 1.5px solid var(--ink);
+      border-radius: 50%;
+    }
+
+    .critical-callout strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 13px;
+      font-weight: 900;
+      line-height: 1.45;
+    }
+
+    .critical-callout p {
+      margin: 0;
+      color: var(--ink-soft);
+      font-size: 12px;
+      line-height: 1.65;
+    }
+
+    .park-map {
+      margin-top: 28px;
+      overflow: hidden;
+      background: var(--white);
+      border: 2.5px solid var(--ink);
+      border-radius: 20px;
+      box-shadow: var(--shadow-hard);
+    }
+
+    .park-map img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+
+    .park-map__body {
+      padding: 19px;
+      border-top: 2px solid var(--ink);
+    }
+
+    .park-map__body h3 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: 22px;
+      line-height: 1.25;
+    }
+
+    .park-map__body > p {
+      margin: 7px 0 0;
+      color: var(--ink-soft);
+      font-size: 12px;
+      line-height: 1.65;
+    }
+
+    .park-route {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 13px;
+    }
+
+    .park-route span {
+      padding: 5px 9px;
+      font-size: 10px;
+      font-weight: 900;
+      line-height: 1.4;
+      background: var(--sky-pale);
+      border: 1px solid var(--ink);
+      border-radius: 999px;
+    }
+
+    .park-route span:nth-child(3) {
+      background: var(--mint-pale);
+    }
+
+    .park-route span:nth-child(5) {
+      background: var(--coral-pale);
+    }
+
+    .show-strip {
+      display: grid;
+      grid-auto-columns: minmax(240px, 78%);
+      grid-auto-flow: column;
+      gap: 14px;
+      margin: 28px -2px 0;
+      padding: 0 2px 18px;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      scroll-snap-type: inline mandatory;
+      scrollbar-color: var(--ink) transparent;
+    }
+
+    .show-card {
+      overflow: hidden;
+      background: var(--white);
+      border: 2px solid var(--ink);
+      border-radius: 16px;
+      box-shadow: 3px 4px 0 rgba(21, 57, 75, 0.22);
+      scroll-snap-align: start;
+    }
+
+    .show-card img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-bottom: 2px solid var(--ink);
+    }
+
+    .show-card__body {
+      padding: 14px 15px 15px;
+    }
+
+    .show-card h3 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: 17px;
+      line-height: 1.3;
+    }
+
+    .show-card p {
+      margin: 5px 0 0;
+      color: var(--ink-soft);
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    .choice-grid {
+      display: grid;
+      gap: 12px;
+      margin-top: 27px;
+    }
+
+    .choice {
+      padding: 18px;
+      background: var(--white);
+      border: 2px solid var(--ink);
+      border-radius: 16px;
+      box-shadow: 3px 4px 0 rgba(21, 57, 75, 0.18);
+    }
+
+    .choice__head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .choice__head b {
+      font-family: var(--font-display);
+      font-size: 17px;
+      line-height: 1.3;
+    }
+
+    .choice__head span {
+      padding: 3px 8px;
+      color: var(--ink);
+      font-size: 10px;
+      font-weight: 900;
+      background: var(--lemon);
+      border: 1.5px solid var(--ink);
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    .choice p {
+      margin: 7px 0 0;
+      color: var(--ink-soft);
+      font-size: 12px;
+      line-height: 1.65;
+    }
+
+    .airport-countdown {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 9px;
+      margin-top: 24px;
+      padding: 15px;
+      background: var(--ink);
+      border: 2px solid var(--ink);
+      border-radius: 17px;
+      box-shadow: 4px 5px 0 var(--coral);
+    }
+
+    .countdown-step {
+      padding: 11px 10px;
+      color: var(--white);
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 11px;
+    }
+
+    .countdown-step time,
+    .countdown-step span {
+      display: block;
+    }
+
+    .countdown-step time {
+      color: var(--mint);
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 900;
+      line-height: 1.1;
+    }
+
+    .countdown-step span {
+      margin-top: 3px;
+      font-size: 10px;
+      font-weight: 800;
+      line-height: 1.4;
+    }
+
+    .checklist-intro {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-top: 25px;
+      padding: 14px 15px;
+      background: var(--white);
+      border: 2px solid var(--ink);
+      border-radius: 15px;
+    }
+
+    .checklist-meter {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .checklist-meter__top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 8px;
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .checklist-meter__bar {
+      height: 10px;
+      overflow: hidden;
+      background: var(--sky-pale);
+      border: 1.5px solid var(--ink);
+      border-radius: 999px;
+    }
+
+    .checklist-meter__bar span {
+      display: block;
+      width: 0;
+      height: 100%;
+      background: var(--mint);
+      border-right: 1.5px solid var(--ink);
+      transition: width 220ms ease;
+    }
+
+    .reset-button {
+      flex: 0 0 auto;
+      padding: 7px 10px;
+      color: var(--ink);
+      font-size: 10px;
+      font-weight: 900;
+      background: var(--coral-pale);
+      border: 1.5px solid var(--ink);
+      border-radius: 999px;
+      cursor: pointer;
+    }
+
+    .checklist {
+      display: grid;
+      gap: 9px;
+      margin-top: 15px;
+    }
+
+    .check-item {
+      position: relative;
+      display: grid;
+      grid-template-columns: 28px 1fr auto;
+      gap: 11px;
+      align-items: center;
+      padding: 12px 13px;
+      background: rgba(255, 255, 255, 0.84);
+      border: 1.5px solid var(--ink);
+      border-radius: 13px;
+      cursor: pointer;
+      transition: background-color 160ms ease, transform 160ms ease;
+    }
+
+    .check-item:hover {
+      background: var(--white);
+      transform: translateY(-1px);
+    }
+
+    .check-item input {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      opacity: 0;
+    }
+
+    .check-item__box {
+      display: grid;
+      width: 26px;
+      height: 26px;
+      place-items: center;
+      background: var(--white);
+      border: 2px solid var(--ink);
+      border-radius: 8px;
+    }
+
+    .check-item__box::after {
+      width: 10px;
+      height: 6px;
+      content: "";
+      border-bottom: 3px solid var(--ink);
+      border-left: 3px solid var(--ink);
+      opacity: 0;
+      transform: rotate(-45deg) translateY(-1px);
+    }
+
+    .check-item input:focus-visible + .check-item__box {
+      outline: 3px solid var(--coral);
+      outline-offset: 3px;
+    }
+
+    .check-item input:checked + .check-item__box {
+      background: var(--mint);
+    }
+
+    .check-item input:checked + .check-item__box::after {
+      opacity: 1;
+    }
+
+    .check-item__label {
+      font-size: 13px;
+      font-weight: 900;
+      line-height: 1.4;
+    }
+
+    .check-item__hint {
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.4;
+      text-align: right;
+    }
+
+    .check-item:has(input:checked) {
+      background: rgba(207, 255, 240, 0.55);
+    }
+
+    .check-item:has(input:checked) .check-item__label {
+      color: var(--muted);
+      text-decoration: line-through;
+      text-decoration-thickness: 1.5px;
+    }
+
+    .final-note {
+      padding: 28px 30px 30px;
+      color: var(--muted);
+      font-size: 10px;
+      line-height: 1.7;
+      background: var(--paper);
+    }
+
+    .final-note strong {
+      color: var(--ink);
+    }
+
+    .final-note p {
+      margin: 0;
+    }
+
+    .map-dialog {
+      width: min(92vw, 760px);
+      max-height: 92vh;
+      padding: 0;
+      overflow: auto;
+      color: var(--ink);
+      background: var(--paper);
+      border: 3px solid var(--ink);
+      border-radius: 20px;
+      box-shadow: 8px 10px 0 rgba(21, 57, 75, 0.4);
+    }
+
+    .map-dialog::backdrop {
+      background: rgba(13, 45, 58, 0.72);
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
+    }
+
+    .map-dialog__top {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 12px 14px;
+      background: var(--paper);
+      border-bottom: 2px solid var(--ink);
+    }
+
+    .map-dialog__top b {
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .map-dialog__top button {
+      display: grid;
+      width: 32px;
+      height: 32px;
+      place-items: center;
+      font-size: 18px;
+      font-weight: 900;
+      background: var(--coral-pale);
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .map-dialog img {
+      width: 100%;
+      height: auto;
+    }
+
+    .map-dialog p {
+      margin: 0;
+      padding: 12px 15px 15px;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.65;
+      border-top: 1.5px solid var(--line);
+    }
+
+    .js .reveal {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 520ms ease, transform 520ms cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .js .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @keyframes hero-drift {
+      from {
+        transform: scale(1.025) translate3d(0, 0, 0);
+      }
+      to {
+        transform: scale(1.06) translate3d(0, -5px, 0);
+      }
+    }
+
+    @media (min-width: 640px) {
+      .hero__content {
+        padding-right: 38px;
+        padding-left: 38px;
+      }
+
+      .section {
+        padding-right: 42px;
+        padding-left: 42px;
+      }
+
+      .overview-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .day-card {
+        padding-right: 16px;
+        padding-left: 16px;
+      }
+
+      .day-card h3 {
+        min-height: 0;
+        font-size: clamp(13.5px, 2.1vw, 19px);
+      }
+
+      .node-grid,
+      .transfer-track,
+      .airport-countdown {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .map-feature {
+        grid-template-columns: 0.9fr 1.1fr;
+      }
+
+      .map-feature__media {
+        aspect-ratio: auto;
+        min-height: 100%;
+        border-top: 0;
+        border-left: 2.5px solid var(--ink);
+      }
+
+      .map-feature__media img {
+        position: absolute;
+        inset: 0;
+      }
+
+      .choice-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .checklist {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .final-note {
+        padding-right: 42px;
+        padding-left: 42px;
+      }
+    }
+
+    @media (max-width: 639px) {
+      .page-shell {
+        width: 100%;
+        margin: 0;
+        border-width: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+
+      .hero {
+        min-height: 640px;
+        border-radius: 0;
+      }
+
+      .hero__top {
+        top: 14px;
+        right: 14px;
+        left: 14px;
+      }
+
+      .hero__content {
+        padding-right: 18px;
+        padding-bottom: 72px;
+        padding-left: 18px;
+      }
+
+      .section {
+        padding: 46px 18px 50px;
+      }
+
+      .day-heading,
+      .section-heading {
+        gap: 14px;
+      }
+
+      .day-date {
+        min-width: 82px;
+        padding-right: 8px;
+        padding-left: 8px;
+      }
+
+      .day-date b {
+        font-size: 21px;
+      }
+
+      .section h2 {
+        font-size: 28px;
+      }
+
+      .timeline__item {
+        grid-template-columns: 49px 1fr;
+        gap: 10px;
+      }
+
+      .timeline__item::before {
+        left: 24px;
+      }
+
+      .timeline__time {
+        padding-right: 3px;
+        padding-left: 3px;
+        font-size: 12px;
+      }
+
+      .timeline-card {
+        padding: 15px 14px;
+      }
+
+      .show-strip {
+        grid-auto-columns: minmax(230px, 84%);
+      }
+
+      .check-item {
+        grid-template-columns: 28px 1fr;
+      }
+
+      .check-item__hint {
+        display: none;
+      }
+    }
+
+    @media (max-width: 370px) {
+      .hero {
+        min-height: 610px;
+      }
+
+      .hero h1 {
+        font-size: 2.65rem;
+      }
+
+      .hero__chips span {
+        padding-right: 9px;
+        padding-left: 9px;
+        font-size: 11px;
+      }
+
+      .day-date {
+        display: none;
+      }
+
+      .node-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-heading__badge {
+        padding-right: 9px;
+        padding-left: 9px;
+        font-size: 10px;
+      }
+
+      .timeline__item {
+        grid-template-columns: 44px 1fr;
+      }
+
+      .timeline__item::before {
+        left: 21.5px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+
+      .js .reveal {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到行程内容</a>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>
+
+  <div class="page-shell">
+    <header class="hero" aria-labelledby="page-title">
+      <img class="hero__image" src="assets/hero-whaleshark.jpg" alt="珠海长隆海洋王国的鲸鲨展区">
+      <div class="hero__top">
+        <span class="sticker">GUANGZHOU TO ZHUHAI</span>
+        <span class="stamp">三天两晚<br>广州往返珠海</span>
+      </div>
+      <div class="hero__content">
+        <span class="hero__kicker">10.30 周五 至 11.01 周日</span>
+        <h1>向海<span>过周末</span></h1>
+        <p class="hero__subtitle">周五白云机场落地，周六往返珠海长隆，周日午餐后前往机场。</p>
+        <div class="hero__chips" aria-label="行程概览">
+          <span>2 人同行</span>
+          <span>3 天行程</span>
+          <span>周六 07:03 出发</span>
+        </div>
+      </div>
+    </header>
+
+    <nav class="day-nav" aria-label="跳转到每日行程">
+      <div class="day-nav__inner">
+        <a href="#overview" aria-current="true">总览</a>
+        <a href="#friday">周五</a>
+        <a href="#saturday">周六</a>
+        <a href="#sunday">周日</a>
+        <a href="#checklist">清单</a>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <section class="section section--tint" id="overview">
+        <p class="section-label reveal">QUICK LOOK</p>
+        <h2 class="reveal">三天时间安排</h2>
+        <p class="section-summary reveal">周五落地后前往客村和琶洲，周六往返珠海长隆，周日上午休息、午餐后前往白云机场。</p>
+
+        <div class="overview-grid">
+          <article class="day-card reveal">
+            <div class="day-card__top">
+              <span>DAY 01 · 10.30</span>
+              <b>周五</b>
+            </div>
+            <h3>机场 → 客村 → 琶洲</h3>
+            <p class="day-card__route">18:50 落地 · 20:30 晚餐</p>
+            <ol class="mini-times">
+              <li><time>18:50</time><span>航班落地，取行李后打车</span></li>
+              <li><time>20:00</time><span>预计到客村，放行李</span></li>
+              <li><time>20:30</time><span>琶醒江边 bistro 晚餐</span></li>
+            </ol>
+          </article>
+
+          <article class="day-card reveal">
+            <div class="day-card__top">
+              <span>DAY 02 · 10.31</span>
+              <b>周六</b>
+            </div>
+            <h3>客村 ⇄ 珠海长隆</h3>
+            <p class="day-card__route">07:03 发车 · 20:48 返程</p>
+            <ol class="mini-times">
+              <li><time>07:03</time><span>客村地铁站 D 出口发车</span></li>
+              <li><time>09:12</time><span>步行到珠海站，约 28 分钟后发车</span></li>
+              <li><time>09:40</time><span>珠海站 B2 检票，S3839</span></li>
+              <li><time>20:48</time><span>S3904 返回珠海站</span></li>
+            </ol>
+          </article>
+
+          <article class="day-card reveal">
+            <div class="day-card__top">
+              <span>DAY 03 · 11.01</span>
+              <b>周日</b>
+            </div>
+            <h3>客村 → 机场</h3>
+            <p class="day-card__route">中午午餐 · 20:00 起飞</p>
+            <ol class="mini-times">
+              <li><time>12:00</time><span>川菜或寿司郎，二选一</span></li>
+              <li><time>16:00</time><span>带齐行李打车去白云机场</span></li>
+              <li><time>20:00</time><span>航班起飞回程</span></li>
+            </ol>
+          </article>
+        </div>
+
+        <div class="route-strip reveal" aria-label="三天关键路线">
+          <div class="route-strip__row">
+            <b>FRI</b>
+            <span>白云机场 → 客村 → 琶洲江边</span>
+            <time>18:50 → 20:30</time>
+          </div>
+          <div class="route-strip__row">
+            <b>SAT</b>
+            <span>客村 → 拱北 → 珠海长隆 → 客村</span>
+            <time>07:03 → 23:00</time>
+          </div>
+          <div class="route-strip__row">
+            <b>SUN</b>
+            <span>客村 → 午餐 → 机场</span>
+            <time>12:00 → 20:00</time>
+          </div>
+        </div>
+
+        <div class="priority reveal">
+          <div class="priority__head">
+            <h3>交通与航班时间</h3>
+            <span>已购票</span>
+          </div>
+          <div class="node-grid">
+            <div class="node">
+              <b>07:03</b>
+              <span>客村地铁站 D 出口<br>去拱北的大巴</span>
+            </div>
+            <div class="node">
+              <b>09:40</b>
+              <span>珠海站 B2 检票口<br>S3839 去珠海长隆</span>
+            </div>
+            <div class="node">
+              <b>20:48</b>
+              <span>珠海长隆站<br>S3904 回珠海站</span>
+            </div>
+            <div class="node">
+              <b>21:30</b>
+              <span>拱北公交站<br>去万胜围的大巴</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="note-strip reveal">
+          <span class="note-strip__icon" aria-hidden="true">i</span>
+          <p>页面时间为 2026 年 10 月 30 日至 11 月 1 日的计划时间；车次、检票口和演出时间以出发当天订单及官方通知为准。</p>
+        </div>
+      </section>
+
+      <section class="section" id="friday">
+        <div class="day-heading reveal">
+          <div class="section-heading__text">
+            <p class="section-label">FRIDAY · 10.30</p>
+            <h2>机场 → 客村 → 琶洲</h2>
+            <p class="section-summary">18:50 落地，20:00 预计到客村，20:30 晚餐，22:30 返回住处。</p>
+          </div>
+          <div class="day-date" aria-hidden="true">
+            <b>30</b>
+            <span>OCT<br>周五</span>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline__item timeline__item--move reveal">
+            <time class="timeline__time" datetime="2026-10-30T18:50">18:50</time>
+            <div class="timeline-card">
+              <h3>落地白云机场</h3>
+              <p>航班 18:50 落地，取行李后打车前往客村，路程约 70 至 90 分钟。</p>
+              <div class="timeline-card__tags">
+                <span>落地 18:50</span>
+                <span>车程 70 至 90 分钟</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--move reveal">
+            <time class="timeline__time" datetime="2026-10-30T20:00">20:00</time>
+            <div class="timeline-card">
+              <h3>抵达客村，放行李</h3>
+              <p>预计 20:00 到客村。放行李并换衣服后前往琶洲。</p>
+              <div class="timeline-card__tags">
+                <span>停留约 15 分钟</span>
+                <span>前往琶洲</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--food reveal">
+            <time class="timeline__time" datetime="2026-10-30T20:30">20:30</time>
+            <div class="timeline-card">
+              <h3>琶洲琶醒江边 bistro 晚餐</h3>
+              <p>20:30 在琶醒江边 bistro 晚餐，餐厅位于琶洲江边。</p>
+              <div class="timeline-card__tags">
+                <span>江边晚餐</span>
+                <span>预订时间 20:30</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--rest reveal">
+            <time class="timeline__time" datetime="2026-10-30T22:30">22:30</time>
+            <div class="timeline-card">
+              <h3>回客村，洗漱睡觉</h3>
+              <p>晚餐后返回客村，次日 06:00 起床。</p>
+              <div class="timeline-card__tags">
+                <span>返回客村</span>
+                <span>闹钟 06:00</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="note-strip reveal">
+          <span class="note-strip__icon" aria-hidden="true">→</span>
+          <p>周五路线为白云机场到客村打车，客村到琶洲打车，晚餐后返回客村。</p>
+        </div>
+      </section>
+
+      <section class="section section--tint" id="saturday">
+        <div class="day-heading reveal">
+          <div class="section-heading__text">
+            <p class="section-label">SATURDAY · 10.31</p>
+            <h2>客村 ⇄ 珠海长隆</h2>
+            <p class="section-summary">07:03 客村发车，约 09:03 到拱北，约 09:12 到珠海站，09:40 乘 S3839，20:48 返程。</p>
+          </div>
+          <div class="day-date" aria-hidden="true">
+            <b>31</b>
+            <span>OCT<br>周六</span>
+          </div>
+        </div>
+
+        <div class="transfer-track" aria-label="周六四个交通时间">
+          <div class="transfer-stop reveal">
+            <span class="transfer-stop__number">01</span>
+            <time>07:03</time>
+            <b>客村发车</b>
+            <small>地铁 D 出口，珠影站台</small>
+          </div>
+          <div class="transfer-stop reveal">
+            <span class="transfer-stop__number">02</span>
+            <time>09:12</time>
+            <b>到珠海站</b>
+            <small>拱北步行约 600 米、9 分钟</small>
+          </div>
+          <div class="transfer-stop reveal">
+            <span class="transfer-stop__number">03</span>
+            <time>20:48</time>
+            <b>长隆站返程</b>
+            <small>S3904 开往珠海站</small>
+          </div>
+          <div class="transfer-stop reveal">
+            <span class="transfer-stop__number">04</span>
+            <time>21:30</time>
+            <b>拱北公交站发车</b>
+            <small>千蔓美容门口站台</small>
+          </div>
+        </div>
+
+        <div class="map-feature reveal">
+          <div class="map-feature__copy">
+            <p class="map-feature__eyebrow">GONGBEI WALKING ROUTE</p>
+            <h3>拱北客运站 → 珠海站</h3>
+            <p>大巴约 2 小时，预计 09:03 到拱北通大汽车客运站。下车后步行约 600 米、9 分钟到珠海站，距 09:40 发车约 28 分钟。</p>
+            <div class="time-compare" aria-label="预计到站时间和城际发车时间">
+              <div>
+                <b>约 09:12</b>
+                <span>预计到珠海站</span>
+              </div>
+              <span aria-hidden="true">→</span>
+              <div>
+                <b>09:40</b>
+                <span>S3839 发车</span>
+              </div>
+            </div>
+            <p>珠海站上车点为 B2 检票口，城际全程约 27 分钟，10:07 到珠海长隆站。</p>
+          </div>
+          <div class="map-feature__media">
+            <img src="assets/gongbei-walk-map-card.jpg" alt="拱北通大汽车客运站到珠海站的步行路线地图">
+            <button class="map-open" type="button" data-open-map="gongbei-map-dialog">
+              <span aria-hidden="true">↗</span> 放大查看路线
+            </button>
+          </div>
+          <p class="map-caption">路线图显示拱北通大汽车客运站至珠海站的方向与距离，步行时间按约 9 分钟计算。</p>
+        </div>
+
+        <div class="timeline" aria-label="周六详细行程">
+          <article class="timeline__item timeline__item--rest reveal">
+            <time class="timeline__time" datetime="2026-10-31T06:00">06:00</time>
+            <div class="timeline-card">
+              <h3>起床，简单吃早餐</h3>
+              <p>06:00 起床并吃早餐，携带身份证或护照、充电宝、雨具和薄外套。</p>
+              <div class="timeline-card__tags">
+                <span>06:00 起床</span>
+                <span>带一件薄外套</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--move reveal">
+            <time class="timeline__time" datetime="2026-10-31T06:20">06:20</time>
+            <div class="timeline-card">
+              <h3>从客村住处出发</h3>
+              <p>从住处前往客村地铁 D 出口珠影站台，约 06:40 到达。</p>
+              <div class="timeline-card__tags">
+                <span>约 06:40 到达</span>
+                <span>客村地铁 D 出口</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--move reveal">
+            <time class="timeline__time" datetime="2026-10-31T07:03">07:03</time>
+            <div class="timeline-card">
+              <h3>大巴发车去拱北</h3>
+              <p>07:03 从客村地铁 D 出口发车，预计车程约 2 小时。</p>
+              <div class="timeline-card__tags">
+                <span>车程约 2 小时</span>
+                <span>约 09:03 到拱北</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--move reveal">
+            <time class="timeline__time" datetime="2026-10-31T09:03">09:03</time>
+            <div class="timeline-card">
+              <h3>到拱北，步行去珠海站</h3>
+              <p>约 09:03 到拱北通大汽车客运站。下车点距珠海站约 600 米，步行约 9 分钟，预计 09:12 到站。</p>
+              <div class="timeline-card__tags">
+                <span>步行约 600 米</span>
+                <span>约 09:12 到站</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--move reveal">
+            <time class="timeline__time" datetime="2026-10-31T09:40">09:40</time>
+            <div class="timeline-card">
+              <h3>S3839 珠海站到珠海长隆站</h3>
+              <p>09:40 从 B2 检票口发车，10:07 到珠海长隆站，全程约 27 分钟。</p>
+              <div class="timeline-card__tags">
+                <span>27 分钟</span>
+                <span>B2 检票口</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--rest reveal">
+            <time class="timeline__time" datetime="2026-10-31T10:20">10:20</time>
+            <div class="timeline-card">
+              <h3>进入珠海长隆海洋王国</h3>
+              <p>10:07 到珠海长隆站，步行约 15 至 20 分钟到园区，10:20 至 10:30 入园。当天演出时间以官方小程序显示为准。</p>
+              <div class="timeline-card__tags">
+                <span>10:07 到长隆站</span>
+                <span>10:20 至 10:30 入园</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--food reveal">
+            <time class="timeline__time" datetime="2026-10-31T11:30">11:30</time>
+            <div class="timeline-card">
+              <h3>午饭</h3>
+              <p>上午游览鲸鲨馆和室内展区，11:30 午饭。12:00 后为餐厅用餐高峰。</p>
+              <div class="timeline-card__tags">
+                <span>11:30 午饭</span>
+                <span>室内展区</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--rest reveal">
+            <time class="timeline__time" datetime="2026-10-31T13:00">13:00</time>
+            <div class="timeline-card">
+              <h3>海豚、海狮、白鲸剧场</h3>
+              <p>三座剧场按当天官方场次安排，剧场之间步行约 20 分钟。</p>
+              <div class="timeline-card__tags">
+                <span>海豚剧场</span>
+                <span>海狮剧场</span>
+                <span>白鲸剧场</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--rest reveal">
+            <time class="timeline__time" datetime="2026-10-31T18:30">18:30</time>
+            <div class="timeline-card">
+              <h3>返回鲸鲨馆或室内休息</h3>
+              <p>18:30 返回鲸鲨馆，或到室内座位休息。</p>
+              <div class="timeline-card__tags">
+                <span>鲸鲨馆</span>
+                <span>室内休息</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--rest reveal">
+            <time class="timeline__time" datetime="2026-10-31T19:20">19:20</time>
+            <div class="timeline-card">
+              <h3>夜间演出</h3>
+              <p>夜间演出时间以官方小程序当天安排为准，20:20 离园。</p>
+              <div class="timeline-card__tags">
+                <span>夜场时间看当天</span>
+                <span>20:20 离园</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--move reveal">
+            <time class="timeline__time" datetime="2026-10-31T20:48">20:48</time>
+            <div class="timeline-card">
+              <h3>S3904 珠海长隆站回珠海站</h3>
+              <p>20:48 从珠海长隆站发车，21:08 到珠海站，全程约 20 分钟。</p>
+              <div class="timeline-card__tags">
+                <span>全程约 20 分钟</span>
+                <span>21:08 到珠海站</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--move reveal">
+            <time class="timeline__time" datetime="2026-10-31T21:30">21:30</time>
+            <div class="timeline-card">
+              <h3>拱北公交站坐大巴去万胜围</h3>
+              <p>21:08 到珠海站，21:30 大巴从拱北公交站发车，换乘约 22 分钟。站台在千蔓美容门口，往香洲方向。</p>
+              <div class="timeline-card__tags">
+                <span>换乘约 22 分钟</span>
+                <span>到万胜围后转地铁</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--rest reveal">
+            <time class="timeline__time" datetime="2026-10-31T23:00">23:00</time>
+            <div class="timeline-card">
+              <h3>回到客村</h3>
+              <p>大巴到万胜围后转地铁，预计 23:00 回到客村住处。</p>
+              <div class="timeline-card__tags">
+                <span>万胜围转地铁</span>
+                <span>约 23:00 到达</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="park-map reveal">
+          <img src="assets/area-map.jpg" alt="珠海长隆度假区及海洋王国周边地图">
+          <div class="park-map__body">
+            <h3>园内动线</h3>
+            <p>页面按入口、鲸鲨馆、三大剧场、夜间演出的顺序安排。</p>
+            <div class="park-route" aria-label="园内推荐顺序">
+              <span>入口</span>
+              <span>→</span>
+              <span>鲸鲨馆</span>
+              <span>→</span>
+              <span>三大剧场</span>
+              <span>→</span>
+              <span>夜间演出</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="show-strip" aria-label="海洋王国重点体验">
+          <article class="show-card">
+            <img src="assets/whaleshark.jpg" alt="鲸鲨馆里的鲸鲨">
+            <div class="show-card__body">
+              <h3>鲸鲨馆</h3>
+              <p>室内展馆，白天和傍晚均可进入。</p>
+            </div>
+          </article>
+          <article class="show-card">
+            <img src="assets/dolphin.jpg" alt="海豚剧场演出">
+            <div class="show-card__body">
+              <h3>海豚剧场</h3>
+              <p>演出时间以官方小程序当天场次为准。</p>
+            </div>
+          </article>
+          <article class="show-card">
+            <img src="assets/beluga.jpg" alt="白鲸剧场演出">
+            <div class="show-card__body">
+              <h3>白鲸剧场</h3>
+              <p>与鲸鲨馆之间有一段步行距离。</p>
+            </div>
+          </article>
+          <article class="show-card">
+            <img src="assets/sealion.jpg" alt="海狮剧场演出">
+            <div class="show-card__body">
+              <h3>海狮剧场</h3>
+              <p>演出时间以官方小程序当天场次为准。</p>
+            </div>
+          </article>
+          <article class="show-card">
+            <img src="assets/fireworks.jpg" alt="海洋王国夜间烟花演出">
+            <div class="show-card__body">
+              <h3>夜间演出</h3>
+              <p>演出时间每天可能变化，20:20 离园，前往珠海长隆站。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--mint" id="sunday">
+        <div class="day-heading reveal">
+          <div class="section-heading__text">
+            <p class="section-label">SUNDAY · 11.01</p>
+            <h2>客村 → 机场</h2>
+            <p class="section-summary">上午休息，12:00 午餐，15:30 回住处拿行李，16:00 打车去机场，20:00 起飞。</p>
+          </div>
+          <div class="day-date" aria-hidden="true">
+            <b>01</b>
+            <span>NOV<br>周日</span>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline__item timeline__item--rest reveal">
+            <time class="timeline__time" datetime="2026-11-01T09:30">09:30</time>
+            <div class="timeline-card">
+              <h3>上午休息</h3>
+              <p>上午不安排景点，在家休息并整理随身行李。</p>
+              <div class="timeline-card__tags">
+                <span>自然醒</span>
+                <span>整理行李</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--food reveal">
+            <time class="timeline__time" datetime="2026-11-01T12:00">12:00</time>
+            <div class="timeline-card">
+              <h3>午餐二选一：川菜或寿司郎</h3>
+              <p>午餐在川菜和寿司郎之间二选一，预计用餐至 13:30。</p>
+              <div class="timeline-card__tags">
+                <span>二选一</span>
+                <span>12:00 午餐</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--rest reveal">
+            <time class="timeline__time" datetime="2026-11-01T13:30">13:30</time>
+            <div class="timeline-card">
+              <h3>下午备选</h3>
+              <p>客村周边散步、室内展馆或咖啡店，15:30 回住处拿行李。</p>
+              <div class="timeline-card__tags">
+                <span>客村周边</span>
+                <span>15:30 返回</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--move reveal">
+            <time class="timeline__time" datetime="2026-11-01T16:00">16:00</time>
+            <div class="timeline-card">
+              <h3>带齐行李，打车去白云机场</h3>
+              <p>15:30 回到住处拿行李，16:00 打车出发。路程按 70 至 90 分钟计算，预计 17:10 至 17:30 到机场。</p>
+              <div class="timeline-card__tags">
+                <span>15:30 取行李</span>
+                <span>16:00 打车</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--food reveal">
+            <time class="timeline__time" datetime="2026-11-01T17:30">17:30</time>
+            <div class="timeline-card">
+              <h3>机场晚饭，18:20 结束</h3>
+              <p>预计 17:10 至 17:30 到机场，办理值机后晚餐，18:30 开始安检。</p>
+              <div class="timeline-card__tags">
+                <span>办理值机</span>
+                <span>18:30 安检</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--move reveal">
+            <time class="timeline__time" datetime="2026-11-01T20:00">20:00</time>
+            <div class="timeline-card">
+              <h3>航班起飞，周末收工</h3>
+              <p>20:00 航班起飞，返回原出发地。</p>
+              <div class="timeline-card__tags">
+                <span>航班 20:00</span>
+                <span>返程</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="choice-grid" aria-label="周日弹性下午选择">
+          <article class="choice reveal">
+            <div class="choice__head">
+              <b>客村周边散步</b>
+              <span>约 90 分钟</span>
+            </div>
+            <p>住处周边的江边或街区，步行时长约 90 分钟。</p>
+          </article>
+          <article class="choice reveal">
+            <div class="choice__head">
+              <b>室内展馆</b>
+              <span>开放时间另查</span>
+            </div>
+            <p>客村周边或地铁直达的小型展馆，开放时间和预约要求另查。</p>
+          </article>
+          <article class="choice reveal">
+            <div class="choice__head">
+              <b>咖啡店</b>
+              <span>客村周边</span>
+            </div>
+            <p>可作为午餐后的停留点，距住处较近，便于 15:30 返回。</p>
+          </article>
+        </div>
+
+        <div class="airport-countdown reveal" aria-label="周日下午到机场的时间安排">
+          <div class="countdown-step">
+            <time>15:30</time>
+            <span>回到住处拿行李</span>
+          </div>
+          <div class="countdown-step">
+            <time>16:00</time>
+            <span>打车出发去机场</span>
+          </div>
+          <div class="countdown-step">
+            <time>17:15</time>
+            <span>预计抵达机场</span>
+          </div>
+          <div class="countdown-step">
+            <time>18:30</time>
+            <span>完成晚饭，开始安检</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="checklist">
+        <p class="section-label reveal">PACKING LIST</p>
+        <h2 class="reveal">行前清单</h2>
+        <p class="section-summary reveal">勾选状态保存在当前浏览器，两人可分别打开页面使用。</p>
+
+        <div class="checklist-intro reveal">
+          <div class="checklist-meter">
+            <div class="checklist-meter__top">
+              <span>行前完成度</span>
+              <span id="check-count">0 / 10</span>
+            </div>
+            <div class="checklist-meter__bar" aria-hidden="true">
+              <span id="check-progress"></span>
+            </div>
+          </div>
+          <button class="reset-button" id="reset-checks" type="button">重置</button>
+        </div>
+
+        <div class="checklist reveal" aria-label="行前清单">
+          <label class="check-item">
+            <input type="checkbox" data-check="id-card">
+            <span class="check-item__box" aria-hidden="true"></span>
+            <span class="check-item__label">身份证或护照</span>
+            <span class="check-item__hint">乘车与登机使用</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" data-check="tickets">
+            <span class="check-item__box" aria-hidden="true"></span>
+            <span class="check-item__label">车票与门票二维码</span>
+            <span class="check-item__hint">可提前截图保存</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" data-check="power-bank">
+            <span class="check-item__box" aria-hidden="true"></span>
+            <span class="check-item__label">充电宝与数据线</span>
+            <span class="check-item__hint">全天拍照和导航使用</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" data-check="comfortable-shoes">
+            <span class="check-item__box" aria-hidden="true"></span>
+            <span class="check-item__label">舒服的鞋</span>
+            <span class="check-item__hint">周六全天步行</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" data-check="sun-protection">
+            <span class="check-item__box" aria-hidden="true"></span>
+            <span class="check-item__label">防晒、帽子和雨具</span>
+            <span class="check-item__hint">晴天和阵雨均可能遇到</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" data-check="light-jacket">
+            <span class="check-item__box" aria-hidden="true"></span>
+            <span class="check-item__label">薄外套</span>
+            <span class="check-item__hint">早晚车上使用</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" data-check="water">
+            <span class="check-item__box" aria-hidden="true"></span>
+            <span class="check-item__label">水和小零食</span>
+            <span class="check-item__hint">路程约 2 小时</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" data-check="tissues">
+            <span class="check-item__box" aria-hidden="true"></span>
+            <span class="check-item__label">纸巾与湿巾</span>
+            <span class="check-item__hint">用餐和户外使用</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" data-check="coach-contact">
+            <span class="check-item__box" aria-hidden="true"></span>
+            <span class="check-item__label">大巴运营方联系方式</span>
+            <span class="check-item__hint">用于查询大巴状态</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" data-check="live-schedule">
+            <span class="check-item__box" aria-hidden="true"></span>
+            <span class="check-item__label">官方频次查询</span>
+            <span class="check-item__hint">出发当天的车次与演出时间</span>
+          </label>
+        </div>
+
+        <div class="priority reveal">
+          <div class="priority__head">
+            <h3>行程关键时间</h3>
+            <span>时间表</span>
+          </div>
+          <div class="node-grid">
+            <div class="node">
+              <b>周六早</b>
+              <span>06:00 起床，约 06:40 到客村 D 口，07:03 发车</span>
+            </div>
+            <div class="node">
+              <b>去程换乘</b>
+              <span>约 09:03 到拱北，约 09:12 到珠海站，09:40 发车</span>
+            </div>
+            <div class="node">
+              <b>周六晚</b>
+              <span>21:08 到珠海站，21:30 大巴从拱北公交站发车</span>
+            </div>
+            <div class="node">
+              <b>周日</b>
+              <span>15:30 拿行李，16:00 打车去白云机场</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="final-note">
+      <p><strong>行程说明：</strong>本页按 2026 年 10 月 30 日至 11 月 1 日整理。交通耗时、检票口、演出时间与餐厅营业情况都可能变化，请以出发当天订单通知、导航和官方小程序为准。</p>
+    </footer>
+  </div>
+
+  <dialog class="map-dialog" id="gongbei-map-dialog">
+    <div class="map-dialog__top">
+      <b>拱北汽车站到珠海站路线</b>
+      <form method="dialog">
+        <button type="submit" aria-label="关闭地图">×</button>
+      </form>
+    </div>
+    <img src="assets/gongbei-walk-map-card.jpg" alt="拱北通大汽车客运站到珠海站的步行路线地图">
+    <p>拱北通大汽车客运站至珠海站约 600 米，步行约 9 分钟，预计 09:12 到站，09:40 从 B2 检票口乘 S3839。</p>
+  </dialog>
+
+  <script>
+    (() => {
+      const progress = document.getElementById("reading-progress");
+      const navLinks = [...document.querySelectorAll(".day-nav a")];
+      const sections = navLinks
+        .map((link) => document.querySelector(link.getAttribute("href")))
+        .filter(Boolean);
+
+      const updateProgress = () => {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        const ratio = max > 0 ? Math.min(1, window.scrollY / max) : 0;
+        progress.style.transform = `scaleX(${ratio})`;
+      };
+
+      const updateActiveNav = () => {
+        const offset = 190;
+        let activeId = sections[0]?.id ?? "";
+
+        sections.forEach((section) => {
+          if (section.getBoundingClientRect().top <= offset) activeId = section.id;
+        });
+
+        navLinks.forEach((link) => {
+          const active = link.getAttribute("href") === `#${activeId}`;
+          if (active) link.setAttribute("aria-current", "true");
+          else link.removeAttribute("aria-current");
+        });
+      };
+
+      updateProgress();
+      updateActiveNav();
+      window.addEventListener("scroll", () => {
+        updateProgress();
+        updateActiveNav();
+      }, { passive: true });
+      window.addEventListener("resize", () => {
+        updateProgress();
+        updateActiveNav();
+      });
+
+      if ("IntersectionObserver" in window) {
+        const revealObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add("is-visible");
+            revealObserver.unobserve(entry.target);
+          });
+        }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+
+        document.querySelectorAll(".reveal").forEach((element) => {
+          revealObserver.observe(element);
+        });
+
+      } else {
+        document.querySelectorAll(".reveal").forEach((element) => {
+          element.classList.add("is-visible");
+        });
+      }
+
+      const checks = [...document.querySelectorAll("[data-check]")];
+      const count = document.getElementById("check-count");
+      const checkProgress = document.getElementById("check-progress");
+      const resetButton = document.getElementById("reset-checks");
+      const storageKey = "gz-zhuhai-weekend-checks-v1";
+
+      const readChecks = () => {
+        try {
+          return JSON.parse(localStorage.getItem(storageKey) || "{}");
+        } catch {
+          return {};
+        }
+      };
+
+      const updateChecks = () => {
+        const done = checks.filter((checkbox) => checkbox.checked).length;
+        count.textContent = `${done} / ${checks.length}`;
+        checkProgress.style.width = `${checks.length ? (done / checks.length) * 100 : 0}%`;
+      };
+
+      const saved = readChecks();
+      checks.forEach((checkbox) => {
+        checkbox.checked = Boolean(saved[checkbox.dataset.check]);
+        checkbox.addEventListener("change", () => {
+          const state = Object.fromEntries(
+            checks.map((item) => [item.dataset.check, item.checked]),
+          );
+          try {
+            localStorage.setItem(storageKey, JSON.stringify(state));
+          } catch {
+            // The checklist still works for this visit when storage is unavailable.
+          }
+          updateChecks();
+        });
+      });
+      updateChecks();
+
+      resetButton.addEventListener("click", () => {
+        checks.forEach((checkbox) => {
+          checkbox.checked = false;
+        });
+        try {
+          localStorage.removeItem(storageKey);
+        } catch {
+          // Ignore storage restrictions.
+        }
+        updateChecks();
+      });
+
+      document.querySelectorAll("[data-open-map]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const dialog = document.getElementById(button.dataset.openMap);
+          if (dialog?.showModal) dialog.showModal();
+        });
+      });
+
+      document.querySelectorAll(".map-dialog").forEach((dialog) => {
+        dialog.addEventListener("click", (event) => {
+          if (event.target === dialog) dialog.close();
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
